@@ -3,7 +3,7 @@
 
 from setuptools import setup, find_packages
 
-setup(version='1.0.4',
+setup(version='1.0.5',
       description='Miscellaneous funcs for MetMiniWX',
       author='Richard Crouch',
       author_email='richard.crouch100@gmail.com',
