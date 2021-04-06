@@ -9,6 +9,7 @@ def wait_until_minute_flip(period):
     """
     while True:
         a = time.ctime()
+        a = a.replace('  ', ' ')    # when date is 06 etc of the month then it is ' 6' so remove
         parts = a.split(' ')
         time_str = parts[3]
         mins = int(time_str.split(':')[1])
